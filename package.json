@@ -1,0 +1,23 @@
+{
+  "name": "api-rest-restful",
+  "version": "1.0.0",
+  "description": "# API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YcaroSilva/api-rest-restful.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YcaroSilva/api-rest-restful/issues"
+  },
+  "homepage": "https://github.com/YcaroSilva/api-rest-restful#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
