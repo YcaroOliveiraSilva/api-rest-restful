@@ -56,8 +56,11 @@ Endpoints URL, URI O Caminho acessado , Informações
 # VERBOS HTTP
 
 -_GET: Receber dados de um Resource._
+
 -_POST: Enviar dados ou informações para serem processados por um Resource._
+
 -_PUT: Atualizar dados de um Resource._
+
 -_DELETE: Deletar um Resource_
 
 # STATUS DAS RESPOSTAS
