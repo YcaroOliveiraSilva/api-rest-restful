@@ -65,20 +65,20 @@ Endpoints URL, URI O Caminho acessado , Informações
 
 # STATUS DAS RESPOSTAS
 
--_1xx: Informação_
+-_100: Informação_
 
--_2xx: Sucesso_
+-_200: Sucesso_
        -_200: OK_
        -_201: CREATED_
        -_204: Não tem conteúdo PUT POST DELETE_
        
--_3xx: Redirection_
+-_300: Redirection_
 
--_4xx: Client Error_
+-_400: Client Error_
         -_400: Bad Request_
         -_404: Not Found!_
         
--_5xx: Server Error 500: Internal Server Error_        
+-_500: Server Error 500: Internal Server Error_        
 
 
 

@@ -13,10 +13,23 @@ app.use(express.json());
  DELETE Deletar um resource
  */
 
+ //GET, POST, PUT, DELETE
+
+// req.query = Acessar query params (para filtros)
+// req.params = Acessar route params (para edicao, delete)
+// req.body = Acessar corpo da requisicao (para criacao, edicao)
+
+
 
 
 app.get("/clients", function(req, res) {
   res.json(data);
+});
+
+app.get('/clients/:id', function(req, res) {
+   res.send('Ycaro' + req.params.id);
+
+   res.json(id);
 });
 
 app.get("/clients/:id", function(req, res) {
